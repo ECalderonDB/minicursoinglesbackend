@@ -10,6 +10,7 @@ const DocentesSchema = new Schema({
     alias_docente: String,
     contrasena: String,
 
+
  Curso_id: {
         type: Schema.Types.ObjectId,
         ref: "curso"
